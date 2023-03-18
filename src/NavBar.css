@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.navbar-brand {
+  text-decoration: none;
+  color: #023047;
+  margin-left: 20px;
+  font-size: 28px !important;
+}
+.header {
+  min-height: 8vh;
+  font-family: "Roboto";
+}
+.reg-btn {
+  background-color: #023047 !important;
+  color: white !important;
+  font-family: "Poppins";
+  margin-right: 10px;
+  width: 200px;
+  height: 40px;
+}
+.login-btn {
+  background-color: #fa8502 !important;
+  color: white !important;
+  font-family: "Poppins";
+  height: 40px;
+  width: 180px;
+}
+@media only screen and (max-width: 600px) {
+  .btn-div {
+    display: none;
+  }
+}

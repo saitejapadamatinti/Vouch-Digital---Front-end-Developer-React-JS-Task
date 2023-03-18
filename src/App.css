@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@900&display=swap");
+
+.left-div,
+.right-div {
+  height: 92vh;
+  font-family: "Roboto";
+}
+.right-div {
+  background-image: url("login-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #023047;
+}
+#emailInput,
+#passwordInput {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.submit-btn {
+  height: 50px;
+  background-color: #023047 !important;
+}
+#emailInput::placeholder,
+#passwordInput::placeholder {
+  opacity: 0.5;
+}
+.form-footer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
